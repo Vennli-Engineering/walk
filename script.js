@@ -12,7 +12,6 @@
             let metadata = await member.getMetaData();
             let ecosystems = metadata.ecosystems;
             let key = metadata.key;
-            console.log(key);
             console.log(ecosystems);
             let ecosystemDropdown = $('#ecosystem');
             for (let i = 0; i < ecosystems.length; i++) {
